@@ -38,7 +38,7 @@ function Projects() {
         <div className="d-md-flex col-md-10 col-12 justify-content-center container my-4">
           <div className="text-center">
             <div className="circle mx-2 raise d-flex align-items-center justify-content-center">
-              <h2 className="display-4">1000+</h2>
+              <h2 className="display-4">1200+</h2>
             </div>
             <p className="lead">Hours Of Coding</p>
           </div>
