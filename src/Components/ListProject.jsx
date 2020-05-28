@@ -50,7 +50,7 @@ const cardData = [
     description:
       "An app where user can play a simple tic tac toe game",
     teckstack: [html, css, js],
-    source: "https://github.com/karthickr698/Tic-Tac-Toe",
+    source: "https://github.com/karthickr698/XO-game",
     live: "https://tic-tac-toe-gameproject.netlify.app/",
   },
   {
