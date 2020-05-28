@@ -42,7 +42,7 @@ function Home() {
             </button>
           </div>
           <h6 className="mt-4">
-            TamilNadu, India <b> +91 8610017133 </b>
+            Chennai, India <b> +91 8610017133 </b>
             ||<b> rkarthick410@gmail.com </b>
           </h6>
         </div>
