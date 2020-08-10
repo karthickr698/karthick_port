@@ -24,6 +24,9 @@ function Home() {
             <a target="_none" href="https://github.com/karthickr698">
               <i className="fab mx-2 fa-github fa-2x raise"></i>
             </a>
+            <a target="_none" href="https://github.com/karthickr698">
+              <i class="fab mx-2 fa-2x raise fa-twitter" aria-hidden="true"></i>
+            </a>
             <a
               target="_none"
               href="https://www.hackerrank.com/rkarthick410"
