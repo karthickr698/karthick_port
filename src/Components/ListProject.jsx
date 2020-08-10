@@ -16,6 +16,26 @@ let antd =
 
 const cardData = [
   {
+    img: "images/agoda.png",
+    name: "Agoda Clone",
+    description:
+      "An app where user can book hotels fro a rent",
+    teckstack: [html, css, react, bootstrap, antd, redux, flask, mysql],
+    source:
+      "https://github.com/karthickr698/agoda_clone",
+    live: "https://agoda-clone.netlify.app/",
+  },
+  {
+    img: "images/food.png",
+    name: "Food Delivery",
+    description:
+      "An app where user can order food from hotels ",
+    teckstack: [html, css, react, bootstrap, antd, redux, flask, mysql],
+    source:
+      "https://github.com/karthickr698/Food_Delivery",
+    live: "https://karthick-food-app.netlify.app/",
+  },
+  {
     img: "images/vehicles.png",
     name: "VEHICLE RENTING",
     description:

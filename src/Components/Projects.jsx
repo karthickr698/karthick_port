@@ -76,7 +76,7 @@ function Projects() {
           <div className="calendar">
             <GitHubCalander
               username="karthickr698"
-              color="hsl(20,85%, 33%)"
+              color="hsl(203, 82%, 33%)"
             >
               >
               <ReactTooltip delayShow={50} html />
