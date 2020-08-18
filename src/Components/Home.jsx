@@ -85,11 +85,6 @@ function Home() {
             className="stack_icon m-auto raise"
           />
           <img
-            src="https://cdn.svgporn.com/logos/bootstrap.svg"
-            alt="."
-            className="stack_icon m-auto raise"
-          />
-          <img
             src="https://cdn.svgporn.com/logos/javascript.svg"
             alt="."
             className="stack_icon m-auto raise"
@@ -116,6 +111,11 @@ function Home() {
           />
           <img
             src="https://cdn.svgporn.com/logos/python.svg"
+            alt="."
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/aws.svg"
             alt="."
             className="stack_icon m-auto raise"
           />
