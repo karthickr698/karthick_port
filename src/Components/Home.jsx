@@ -36,7 +36,7 @@ function Home() {
             <button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/open?id=1H0vR0YJJXF3TY9bnzkJLRScg-M5VzLrm"
+                  "https://drive.google.com/file/d/1R9kOiVVy4irV8lVDQnE0rJcPvZ1CtE9V/view"
                 )
               }
               className="btn btn-outline-dark mx-2"
