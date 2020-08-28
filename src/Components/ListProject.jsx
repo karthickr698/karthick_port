@@ -26,6 +26,16 @@ const cardData = [
     live: "https://agoda-clone.netlify.app/",
   },
   {
+    img: "images/blog.png",
+    name: "Blog App",
+    description:
+      "An app where user can post a blog and comment for an existing blog",
+    teckstack: [html, css, react, bootstrap, antd, redux, flask, mysql],
+    source:
+      "https://github.com/karthickr698/blog_application",
+    live: "https://blogs-app.netlify.app/",
+  },
+  {
     img: "images/food.png",
     name: "Food Delivery",
     description:
