@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import emailjs from 'emailjs-com';
 
 function Home() {
+  useEffect(() => {
+      let templateParams = {
+        from_name: 'rkarthick410@gmail.com',
+        to_name: 'karthick184r@gmail.com',
+        subject: "send",
+        message_html: "datas",
+      }
+      emailjs.send(
+        'gmail',
+        'template_xxKzOdyD',
+        templateParams,
+        'user_dRRjC8Dekxlz2UBL2EKrF'
+      )
+  }
+  )
   return (
     <section id="margin">
       <div className="row container justify-content-end">
