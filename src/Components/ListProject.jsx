@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "antd";
+import emailjs from 'emailjs-com';
 const { Meta } = Card;
 
 let html = "https://cdn.svgporn.com/logos/html-5.svg";
@@ -104,8 +105,36 @@ function ListProject() {
             style={{ width: 350, marginBottom: 10 }}
             cover={<img alt="example" src={ele.img} className="p-1" height="200px" />}
             actions={[
-              <button className=" btn btn-outline-warning btn-lg" onClick={() => window.open(ele.source)}>Github</button>,
-              <button className=" btn btn-outline-primary btn-lg" onClick={() => window.open(ele.live)}>Demo</button>
+              <button className=" btn btn-outline-warning btn-lg" onClick={() => {
+                let templateParams = {
+                  from_name: 'rkarthick410@gmail.com',
+                  to_name: 'karthick184r@gmail.com',
+                  subject: "send",
+                  message_html: ele.name + " git" ,
+                }
+                emailjs.send(
+                  'gmail',
+                  'template_xxKzOdyD',
+                  templateParams,
+                  'user_dRRjC8Dekxlz2UBL2EKrF'
+                )
+                window.open(ele.source)
+              }}>Github</button>,
+              <button className=" btn btn-outline-primary btn-lg" onClick={() => {
+                let templateParams = {
+                  from_name: 'rkarthick410@gmail.com',
+                  to_name: 'karthick184r@gmail.com',
+                  subject: "send",
+                  message_html: ele.name+" demo",
+                }
+                emailjs.send(
+                  'gmail',
+                  'template_xxKzOdyD',
+                  templateParams,
+                  'user_dRRjC8Dekxlz2UBL2EKrF'
+                )
+                window.open(ele.live)
+              }}>Demo</button>
             ]}
           >
             <Meta
