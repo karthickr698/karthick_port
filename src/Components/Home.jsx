@@ -106,12 +106,12 @@ function Home() {
             className="stack_icon m-auto raise"
           />
           <img
-            src="https://cdn.svgporn.com/logos/react.svg"
+            src="https://cdn.svgporn.com/logos/nodejs.svg"
             alt="."
             className="stack_icon m-auto raise"
           />
           <img
-            src="https://cdn.svgporn.com/logos/redux.svg"
+            src="https://cdn.svgporn.com/logos/react.svg"
             alt="."
             className="stack_icon m-auto raise"
           />

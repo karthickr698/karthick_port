@@ -12,6 +12,7 @@ let mysql = "https://cdn.svgporn.com/logos/mysql.svg";
 let js = "https://cdn.svgporn.com/logos/javascript.svg";
 let flask = "https://cdn.svgporn.com/logos/flask.svg";
 let jquery = "https://cdn.svgporn.com/logos/jquery.svg";
+let node ="https://cdn.svgporn.com/logos/nodejs.svg"
 let antd =
   "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg";
 
@@ -20,7 +21,7 @@ const cardData = [
     img: "images/agoda.png",
     name: "Agoda Clone",
     description:
-      "An app where user can book hotels fro a rent",
+      "An app where user can book hotels rooms for a rent",
     teckstack: [html, css, react, bootstrap, antd, redux, flask, mysql],
     source:
       "https://github.com/karthickr698/agoda_clone",
@@ -31,7 +32,7 @@ const cardData = [
     name: "Blog App",
     description:
       "An app where user can post a blog and comment for an existing blog",
-    teckstack: [html, css, react, bootstrap, antd, redux, flask, mysql],
+    teckstack: [html, css, react, bootstrap, antd, redux, node, mysql],
     source:
       "https://github.com/karthickr698/blog_application",
     live: "https://blogs-app.netlify.app/",
