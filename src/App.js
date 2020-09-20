@@ -6,6 +6,9 @@ import Projects from "./Components/Projects";
 import AOS from "aos";
 import "antd/dist/antd.css";
 import "aos/dist/aos.css";
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-178502685-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 // ..
 AOS.init();
 

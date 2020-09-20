@@ -12,7 +12,8 @@ let mysql = "https://cdn.svgporn.com/logos/mysql.svg";
 let js = "https://cdn.svgporn.com/logos/javascript.svg";
 let flask = "https://cdn.svgporn.com/logos/flask.svg";
 let jquery = "https://cdn.svgporn.com/logos/jquery.svg";
-let node ="https://cdn.svgporn.com/logos/nodejs.svg"
+let node = "https://cdn.svgporn.com/logos/nodejs.svg";
+let aws = "https://cdn.svgporn.com/logos/aws.svg"
 let antd =
   "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg";
 
@@ -21,18 +22,28 @@ const cardData = [
     img: "images/agoda.png",
     name: "Agoda Clone",
     description:
-      "An app where user can book hotels rooms for a rent",
-    teckstack: [html, css, react, bootstrap, antd, redux, flask, mysql],
+      "Agoda Clone is the clone of website Vrbo offering rental bookings for housing properties. Uses Redis and cookies for Session management. Integrated GoogleMap, Razorpay",
+    teckstack: [html, css, react, redux, flask, mysql, aws, bootstrap, antd],
     source:
       "https://github.com/karthickr698/agoda_clone",
     live: "https://agoda-clone.netlify.app/",
   },
   {
+    img: "https://portfolio.devganesh.tech/twitterclone.png",
+    name: "Twitter Clone",
+    description:
+      "Twitter Clone is the custom clone version of website Twitter where users can view tweets who they are following and follow / unfollow other users and like their tweets. Uses Redis and cookies for Session management.",
+    teckstack: [html, css, react, redux, flask, mysql, aws, antd],
+    source:
+      "https://github.com/karthickr698/twitter_clone",
+    live: "https://twitterclone.devganesh.tech/",
+  },
+  {
     img: "images/blog.png",
     name: "Blog App",
     description:
-      "An app where user can post a blog and comment for an existing blog",
-    teckstack: [html, css, react, bootstrap, antd, redux, node, mysql],
+      "Blog app is the web app where user can add or delete blogs and the user can comment for the post. The user can upload profile picture for their account",
+    teckstack: [html, css, react, redux, node, mysql, aws, bootstrap, antd],
     source:
       "https://github.com/karthickr698/blog_application",
     live: "https://blogs-app.netlify.app/",
@@ -111,7 +122,7 @@ function ListProject() {
                   from_name: 'rkarthick410@gmail.com',
                   to_name: 'karthick184r@gmail.com',
                   subject: "send",
-                  message_html: ele.name + " git" ,
+                  message_html: ele.name + " git",
                 }
                 emailjs.send(
                   'gmail',
@@ -126,7 +137,7 @@ function ListProject() {
                   from_name: 'rkarthick410@gmail.com',
                   to_name: 'karthick184r@gmail.com',
                   subject: "send",
-                  message_html: ele.name+" demo",
+                  message_html: ele.name + " demo",
                 }
                 emailjs.send(
                   'gmail',
