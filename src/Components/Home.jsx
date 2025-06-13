@@ -66,7 +66,7 @@ technical knowledge and ability to work.
         </div>
         <div className="col-md-5">
           <div className="display_div ml-auto">
-            <img src="/karthick.jpeg" className="display_img" alt="." />
+            <img src="/karthick.jpg" className="display_img" alt="." />
           </div>
         </div>
       </div>
