@@ -62,7 +62,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="row m-auto container">
+      {/* <div className="row m-auto container">
         <div
           className=" col-12 col-md-12"
           data-aos="zoom-in-up"
@@ -83,7 +83,7 @@ function Projects() {
             </GitHubCalander>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

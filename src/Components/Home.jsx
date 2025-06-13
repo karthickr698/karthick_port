@@ -24,10 +24,9 @@ function Home() {
           <h1>Hello, I'M KARTHICK R</h1>
           <h1>Full Stack Developer</h1>
           <h6 style={{ textAlign: "justify" }}>
-            A passionate aspiring Full Stack Developer skilled in MERN stack,
-            moulded and shaped by Masai School's numerous training. Actively
-            ready to join in a great lively team of a good start-up to adapt me
-            in any situation and environment with ease and perform the best.
+            To pursue a career with a company having a global vision that encourages creativity and offers an
+opportunity to learn and develop both in professional and personal life, wish to use and enhance my
+technical knowledge and ability to work.
           </h6>
           <hr />
           <div className="row" style={{ marginLeft: "2px" }}>
@@ -52,7 +51,7 @@ function Home() {
             <button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1ioiHADRvGgUz49Xbe8lX-5Z4LFTG4ln3/view?usp=sharing"
+                  "https://drive.google.com/file/d/1d_Wl_7DMm5VrNvwk1F_E2Pj1pYQQ_CIn/view?usp=sharing"
                 )
               }
               className="btn btn-outline-dark mx-2"
@@ -61,7 +60,7 @@ function Home() {
             </button>
           </div>
           <h6 className="mt-4">
-            Chennai, India <b> +91 8610017133 </b>
+            Chennai, India <b> +91 8220504785 </b>
             ||<b> rkarthick410@gmail.com </b>
           </h6>
         </div>
@@ -91,7 +90,7 @@ function Home() {
             className="stack_icon m-auto raise"
           />
           <img
-            src="https://cdn.svgporn.com/logos/github.svg"
+            src="https://cdn.svgporn.com/logos/mongodb.svg"
             alt="."
             className="stack_icon m-auto raise"
           />
@@ -116,7 +115,7 @@ function Home() {
             className="stack_icon m-auto raise"
           />
           <img
-            src="https://cdn.svgporn.com/logos/flask.svg"
+            src="https://cdn.svgporn.com/logos/django.svg"
             alt="."
             className="stack_icon m-auto raise"
           />
@@ -168,7 +167,7 @@ function Home() {
               src="https://santhisrikh.github.io/images/back.png"
             />
             <h2>Back End</h2>
-            <p className="lead">Python,Flask, Mysql</p>
+            <p className="lead">Python,Flask, Node js, Mongo DB, Mysql</p>
           </div>
           <div className="col-md-4">
             <img
